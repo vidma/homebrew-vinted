@@ -2,9 +2,9 @@ require 'formula'
 
 class CdhPig < Formula
   homepage 'http://www.cloudera.com'
-  url 'http://archive.cloudera.com/cdh5/cdh/5/pig-0.12.0-cdh5.1.3.tar.gz'
-  sha1 '7776d0b9c7b3549675caf5888e508d2a409e0b74'
-  version '0.12.0-cdh5.1.3'
+  url 'http://archive.cloudera.com/cdh5/cdh/5/pig-0.12.0-cdh5.2.1.tar.gz'
+  sha1 'b07b1cdf4f66c269e520da04425ab271c9307cbd'
+  version '0.12.0-cdh5.2.1'
 
   patch :DATA
 
