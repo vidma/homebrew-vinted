@@ -2,8 +2,8 @@ require "formula"
 
 class CdhHadoop < Formula
   homepage "http://www.cloudera.com"
-  url "http://archive.cloudera.com/cdh5/cdh/5/hadoop-2.5.0-cdh5.2.1.tar.gz"
-  sha1 "120c525ac02756e9d23ce8f99e4f6d6e768ab96d"
+  url 'http://archive.cloudera.com/cdh5/cdh/5/hadoop-2.5.0-cdh5.3.0.tar.gz'
+  sha1 '6e273bfb4218effd566acab1cba6aa7942a7adc6'
 
   def install
     rm_f Dir["bin/*.cmd", "sbin/*.cmd", "libexec/*.cmd", "etc/hadoop/*.cmd"]
