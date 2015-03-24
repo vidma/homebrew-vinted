@@ -5,7 +5,7 @@ class CdhHive < Formula
   url 'http://archive.cloudera.com/cdh5/cdh/5/hive-0.13.1-cdh5.3.2.tar.gz'
   sha1 '9b521559d15a2be76c7f1d323ade60b3edf4d242'
 
-  depends_on 'hadoop'
+  depends_on 'cdh-hadoop'
 
   def install
     rm_f Dir["bin/*.bat"]
