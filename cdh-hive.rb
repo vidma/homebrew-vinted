@@ -2,8 +2,8 @@ require 'formula'
 
 class CdhHive < Formula
   homepage 'http://hive.apache.org'
-  url 'http://archive.cloudera.com/cdh5/cdh/5/hive-0.13.1-cdh5.3.0.tar.gz'
-  sha1 '4c62a1d6638fe5958cda8c2d4be2cf704845e502'
+  url 'http://archive.cloudera.com/cdh5/cdh/5/hive-0.13.1-cdh5.3.2.tar.gz'
+  sha1 '9b521559d15a2be76c7f1d323ade60b3edf4d242'
 
   depends_on 'hadoop'
 
